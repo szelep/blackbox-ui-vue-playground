@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  font-family: Montserrat-Light, sans-serif;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('./fonts/Montserrat-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light|Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('./fonts/Montserrat-Regular.otf') format('opentype');
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(to right top, #833863, #843974, #813d87, #77439b, #634cb0, #505cbe, #366bc9, #0078d1, #008bce, #0099c3, #2ba5b5, #63afab);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.el-input__suffix {
+  cursor: pointer;
+}
